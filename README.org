@@ -1,0 +1,10 @@
+#+TITLE:	README for R files
+#+AUTHOR:	George M Jones
+#+EMAIL:	gmj AT pobox DOT com
+#+STARTUP:	content
+#+Last Update: Sat Oct 11 16:43:16 2014
+
+* 1. What's this?
+
+These are mainly small apps and utilities I'm creating as I learn R
+and and work through this https://www.coursera.org/course/datascitoolbox
