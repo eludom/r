@@ -1,14 +1,14 @@
 library(shiny)
 
 shinyUI(fluidPage(sidebarLayout(
-  sidebarPanel(
+    sidebarPanel(
+      titlePanel("Rail Barron Payoff Lookup"),
+    # use updateSelectizeInput() to generate options later
+    selectizeInput('src', 'Starting City', choices = NULL),
 
     # use updateSelectizeInput() to generate options later
-    selectizeInput('src', 'SRC', choices = NULL),
-
-    # use updateSelectizeInput() to generate options later
-    selectizeInput('dst', 'DST', choices = NULL)
-
+    selectizeInput('dst', 'Ending City', choices = NULL)
+        
   ),
   mainPanel(
     verbatimTextOutput('values')
